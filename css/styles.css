@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Norse;
+  src: url(../assets/Norse-Bold.otf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1366px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 168px;
+  background-color: #868e96;
+
+  display: flex;
+}
+
+aside {
+  width: 350px;
+  background-image: url('../assets/halie-west-25xggax4bSA-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section {
+  font-family: sans-serif;
+  width: 650px;
+  background-color: #e9ecef;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+a {
+  color: #596d48;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+form {
+  background-color: #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 32px 0;
+}
+
+label {
+  font-size: 0.6rem;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input {
+  display: block;
+  outline: none;
+  padding: 4px 8px;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+input:invalid {
+  border: 1px solid #ff0000;
+}
+
+button {
+  font-weight: bolder;
+  border: none;
+  padding: 8px 32px;
+  color: #fff;
+  background-color: #596d48;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.container-logo {
+  font-size: 32px;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: Norse, sans-serif;
+  padding: 8px 0;
+  margin-top: 41.5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-author,
+.container-logo {
+  color: white;
+}
+
+.image-author {
+  text-align: center;
+  font-size: 12px;
+}
+
+.top,
+.bottom,
+form {
+  padding-left: 32px;
+  padding-right: 125px;
+}
+
+.top {
+  font-weight: bold;
+}
+
+.top > p {
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.bottom {
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 16px;
+}
